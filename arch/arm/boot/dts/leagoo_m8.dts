@@ -1,13 +1,13 @@
 
 /dts-v1/;
 
-#include "mt6735m.dtsi"
+#include "mt6580.dtsi"
 
 / {
 	cpus {
 		#address-cells = <1>;
 		#size-cells = <0>;
-/*		enable-method = "mediatek,mt6735-smp"; */
+/*		enable-method = "mediatek,mt6580-smp"; */
 
 		cpu0: cpu@000 {
 			device_type = "cpu";
